@@ -1,56 +1,44 @@
 import React from 'react'
 import { Link } from 'gatsby'
-
 import { rhythm, scale } from '../utils/typography'
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
+import 'prismjs/themes/prism-tomorrow.css'
+import 'prismjs/plugins/line-numbers/prism-line-numbers.css'
 
 class Layout extends React.Component {
   render() {
-    const { location, title, children } = this.props
-    const rootPath = `${__PATH_PREFIX__}/`
+    const { title, children } = this.props
+    console.log('this.props: ', this.props)
     let header
 
-    if (location.pathname === rootPath) {
-      header = (
+    header = (
+      <header>
         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            marginBottom: 0,
             marginTop: 0,
+            fontSize: 16,
+            fontWeight: 'normal',
           }}
         >
           <Link
             style={{
               boxShadow: `none`,
               textDecoration: `none`,
-              color: `inherit`,
             }}
             to={`/`}
           >
             {title}
           </Link>
         </h1>
-      )
-    } else {
-      header = (
-        <h3
-          style={{
-            fontFamily: `Montserrat, sans-serif`,
-            marginTop: 0,
-          }}
+        <a
+          style={{ fontSize: 12, textDecoration: 'none' }}
+          href={`https://twitter.com/t0m0120`}
         >
-          <Link
-            style={{
-              boxShadow: `none`,
-              textDecoration: `none`,
-              color: `inherit`,
-            }}
-            to={`/`}
-          >
-            {title}
-          </Link>
-        </h3>
-      )
-    }
+          @t0m0120
+        </a>
+      </header>
+    )
     return (
       <div
         style={{
@@ -61,11 +49,10 @@ class Layout extends React.Component {
         }}
       >
         {header}
-        {children}
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <div style={{ marginBottom: '1.75rem' }}>{children}</div>
+        <footer style={{ textAlign: 'center' }}>
+          © {new Date().getFullYear()},{` `}
+          <a href="https://www.twitter.com/t0m0120">t0m0120</a>
         </footer>
       </div>
     )
