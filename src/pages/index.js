@@ -4,7 +4,6 @@ import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import { rhythm } from '../utils/typography'
-import '../styles/global.css'
 
 class BlogIndex extends React.Component {
   render() {
