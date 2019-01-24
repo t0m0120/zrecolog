@@ -2,8 +2,8 @@ module.exports = {
   siteMetadata: {
     title: `recolog`,
     author: `t0m0120`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    description: `t0m0120の個人開発ブログ`,
+    siteUrl: `https://recolog.tokyo/`,
     social: {
       twitter: `t0m0120`,
     },
