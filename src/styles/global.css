@@ -65,3 +65,7 @@ hr {
   text-decoration: underline;
   text-decoration-color: #81E4DA;
 }
+
+pre {
+  font-size: 12px!important;
+}

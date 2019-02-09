@@ -26,8 +26,9 @@ class BlogIndex extends React.Component {
                 }}
               >
                 <Link
-                  style={{ boxShadow: `none` }}
                   to={node.fields.slug}
+                  style={{ boxShadow: `none` }}
+                  class={'post-title'}
                   activeStyle={{
                     textDecoration: 'underline',
                   }}
