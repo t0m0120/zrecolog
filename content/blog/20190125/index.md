@@ -1,6 +1,7 @@
 ---
 title: ネストしたテキストが親のOpacityを上書き出来ない
 date: '2019-01-25'
+tags: ['ReactNative', 'JavaScript', 'Memo']
 ---
 
 ReactNativeでスタイルを書いていてネストしたテキストが親のOpacityを上書き出来ない
@@ -14,11 +15,11 @@ ReactNativeでスタイルを書いていてネストしたテキストが親の
 
 ```
 
-
 `opacityプロパティは適用しているビューの全体の不透明度を変更します。`  
 どの子コンポーネントも親の不透明度を継承するようなのでcolorのrgbaで指定する必要があるっぽい？
 
 NG
+
 ```css
   text: {
     color: '#fff',
@@ -32,6 +33,7 @@ NG
 ```
 
 GOOD
+
 ```css
   text: {
     color: 'rgba(255, 255, 255, 0.7)',
