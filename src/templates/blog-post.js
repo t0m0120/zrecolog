@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link, graphql } from 'gatsby'
+const _ = require('lodash')
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
@@ -21,11 +22,20 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
+        <div style={{display: 'flex', marginTop: '10px'}}>
+          {post.frontmatter.tags.map(tag => {
+            return (
+              <Link
+                to={`/tags/${_.toLower(tag)}`}
+                class='post-tag'
+              >
+                {tag}
+              </Link>
+            )
+          })}
+        </div>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
-        <hr
-          style={{
-          }}
-        />
+        <hr style={{}} />
 
         <ul
           style={{
@@ -73,6 +83,7 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        tags
       }
     }
   }

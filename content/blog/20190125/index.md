@@ -2,6 +2,7 @@
 title: ネストしたテキストが親のOpacityを上書き出来ない
 date: '2019-01-25'
 tags: ['ReactNative', 'JavaScript', 'Memo']
+path: "/20190125"
 ---
 
 ReactNativeでスタイルを書いていてネストしたテキストが親のOpacityを上書き出来ない

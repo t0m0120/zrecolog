@@ -20,6 +20,11 @@ p {
   margin-bottom: 0;
 }
 
+::selection {
+  background: #21CC99;
+  color: #fff;
+}
+
 h1 {
   font-size: 20px;
 }
@@ -37,14 +42,26 @@ h6 {
 
 code[class*="language-text"], pre[class*="language-text"]{
   background: #21CC99!important;
-  border-radius: 0;
+  padding: 2px!important;
+  border-radius: 0!important;
   color: white!important;
   font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic,
     'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo,
-    Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif !important;
   
 }
 
 hr {
   margin-top: 30px;
+}
+
+.post-tag{
+  color: #81E4DA;
+  font-size: 12px;
+  padding-right: 5px;
+}
+
+.post-tag:hover{
+  text-decoration: underline;
+  text-decoration-color: #81E4DA;
 }

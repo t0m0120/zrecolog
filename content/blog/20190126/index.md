@@ -2,12 +2,16 @@
 title: ReactNativeで定期購読の編集ページに飛ばす
 date: '2019-01-26'
 tags: ['ReactNative', 'JavaScript', 'iOS', 'Memo']
+path: "/20190126"
 ---
 
 Subscription編集ページに飛ばすLink
 
 [ios - Link to app manage subscriptions in app store - Stack Overflow](https://stackoverflow.com/questions/15530794/link-to-app-manage-subscriptions-in-app-store)
-itms-apps://apps.apple.com/account/subscriptions
+
+
+
+`itms-apps://apps.apple.com/account/subscriptions`で飛ばす。
 
 ```jsx
 <Button
