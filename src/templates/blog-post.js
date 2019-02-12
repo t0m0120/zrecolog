@@ -27,7 +27,8 @@ class BlogPostTemplate extends React.Component {
             return (
               <Link
                 to={`/tags/${_.toLower(tag)}`}
-                class='post-tag'
+                className='post-tag'
+                key={tag}
               >
                 {tag}
               </Link>

@@ -78,13 +78,5 @@ module.exports = {
         noInlineHighlight: false,
       },
     },
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        plugins: [
-          `gatsby-remark-prismjs`,
-        ]
-      }
-    }
   ],
 }
