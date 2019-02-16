@@ -35,7 +35,7 @@ class BlogPostTemplate extends React.Component {
             )
           })}
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+        <div dangerouslySetInnerHTML={{ __html: post.html }} className='post-text' />
         <hr style={{}} />
 
         <ul

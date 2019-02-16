@@ -69,3 +69,7 @@ hr {
 pre {
   font-size: 12px!important;
 }
+
+.post-text a {
+  text-decoration: underline!important;
+}
