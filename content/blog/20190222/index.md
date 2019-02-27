@@ -2,7 +2,7 @@
 title: XCodeでアプリをデプロイする手順(1)
 date: '2019-02-22'
 tags: [ 'iOS', 'Xcode', 'Deploy', 'AppStoreConnect', 'AppleDeveloper']
-path: "/20190212"
+path: "/20190222"
 ---
 
 ## 手順
