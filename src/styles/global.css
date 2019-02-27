@@ -73,3 +73,8 @@ pre {
 .post-text a {
   text-decoration: underline!important;
 }
+
+.gatsby-resp-image-link {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
