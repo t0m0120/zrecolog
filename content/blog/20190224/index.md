@@ -6,7 +6,7 @@ path: "20190224"
 ---
 
 ProjectからConfigurationsで  
-Duplicate Relase ConfigurationからReleaseBuildを選択する。
+Duplicate Relase ConfigurationからコピーしたいBuildを選択する。
 ![1.png](1.png)
 
 
