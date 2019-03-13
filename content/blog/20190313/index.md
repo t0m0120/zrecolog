@@ -5,6 +5,10 @@ tags: [ 'react-native', 'intercom', 'ios', 'android']
 path: "/20190313"
 ---
 
+intercomのチャットがWebViewでは挙動が怪しかったのでNative実装する。
+今回は記載しないがPush通知もIntercom経由で送信できるのでかなり便利になるはず。
+[tinycreative/react-native-intercom](https://github.com/tinycreative/react-native-intercom)
+
 ## iOS
 
 [Installing Intercom](https://developers.intercom.com/installing-intercom/docs/ios-installation)
