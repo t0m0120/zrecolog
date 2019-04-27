@@ -12,13 +12,6 @@ export default class HTML extends React.Component {
             name="viewport"
             content="width=device-width, initial-scale=1, shrink-to-fit=no"
           />
-          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-          <script>
-            (adsbygoogle = window.adsbygoogle || []).push({
-              google_ad_client: "ca-pub-5441589109590198",
-              enable_page_level_ads: true
-            });
-          </script>
           {this.props.headComponents}
         </head>
         <body {...this.props.bodyAttributes}>
@@ -29,6 +22,15 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+          <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script>
+            {`
+              (adsbygoogle = window.adsbygoogle || []).push({
+                google_ad_client: "ca-pub-5441589109590198",
+                enable_page_level_ads: true
+              });
+            `}
+          </script>
         </body>
       </html>
     )
