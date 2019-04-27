@@ -1,7 +1,7 @@
 ---
 title: react-native-intercom入れる
 date: '2019-03-13'
-tags: [ 'react-native', 'intercom', 'ios', 'android']
+tags: [ 'ReactNative', 'intercom', 'iOS', 'Android']
 path: "/20190313"
 ---
 
