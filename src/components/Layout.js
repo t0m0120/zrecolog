@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import Ad from '../components/ad'
 
 class Layout extends React.Component {
   render() {
@@ -49,6 +50,7 @@ class Layout extends React.Component {
           © {new Date().getFullYear()},{` `}
           <a href="https://www.twitter.com/t0m0120">t0m0120</a>
         </footer>
+        <Ad/>
       </div>
     )
   }
