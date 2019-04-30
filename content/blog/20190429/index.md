@@ -74,6 +74,7 @@ Firebaseの[AndroidREADME](https://rnfirebase.io/docs/v5.x.x/installation/androi
 ## TwitterLogin
 
 [Firebase/Social Auth](https://rnfirebase.io/docs/v5.x.x/auth/social-auth#Twitter)見た感じ
-[react-native-twitter-signin](https://github.com/GoldenOwlAsia/react-native-twitter-signin/issues/117#issuecomment-447859381)と組み合わせて使うっぽい
+[react-native-twitter-signin](https://github.com/GoldenOwlAsia/react-native-twitter-signin/issues/117#issuecomment-447859381)と組み合わせて使うっぽいが
+twitter-signinが簡単には無理そうなので諦めるかも。
 
-がtwitter-signinが簡単には無理そうなので諦めるかも。
+[Errors like: Class TWTRScribeService is implemented in both ... #18](https://github.com/twitter/twitter-kit-ios/issues/18)
