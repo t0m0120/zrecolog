@@ -20,6 +20,10 @@ p {
   margin-bottom: 0;
 }
 
+li {
+  font-size: 14px;
+}
+
 ::selection {
   background: #21CC99;
   color: #fff;
