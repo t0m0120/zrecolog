@@ -8,7 +8,7 @@ path: "/20190511"
 SocialDogのAndroid対応で
 iOSは[datepickerios](https://facebook.github.io/react-native/docs/datepickerios)を使っていたが
 Androidどうすっかなーと思ったときにiosはそのままでAndroidはiospickerに似せたpickerを表示するライブラリがあったので導入した。
-![henninghall/react-native-date-picker](https://github.com/henninghall/react-native-date-picker)
+[henninghall/react-native-date-picker](https://github.com/henninghall/react-native-date-picker)
 
 モーダルとかに直接埋め込みたかったのでメジャーな[xgfe/react-native-datepicker](https://github.com/xgfe/react-native-datepicker)は使えなかった。
 (押すとモーダルが開くタイプのため
