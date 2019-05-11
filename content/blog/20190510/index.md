@@ -10,7 +10,7 @@ path: "/20190510"
 Zenfone3Max/Android8.1で
 TextAreaにFocusした際にKeyboardの高さがキーボード1個分？余計に上がってしまう
 
-![andorid keyboard issue](https://cloud.githubusercontent.com/assets/1051229/21565199/47256b5e-ce95-11e6-8e19-69a112fd06f3.png)
+<img src='https://cloud.githubusercontent.com/assets/1051229/21565199/47256b5e-ce95-11e6-8e19-69a112fd06f3.png' width='30%'>
 
 
 
