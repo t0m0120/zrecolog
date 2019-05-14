@@ -2,7 +2,7 @@
 title: react-native-rate導入に関して
 date: '2019-05-12'
 tags: [ 'ReactNative', 'iOS', 'NativeModule']
-path: "/20190511"
+path: "/20190512"
 ---
 
 プロダクトのレビュー施策に[KjellConnelly/react-native-rate](https://github.com/KjellConnelly/react-native-rate)を導入してみた。
