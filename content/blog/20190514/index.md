@@ -1,7 +1,7 @@
 ---
-title: androidでDrawerが全画面でタッチ反応してしまう
+title: ReactNavigationのDrawerがAndroidで全画面でスワイプ反応してしまう
 date: '2019-05-14'
-tags: [ 'ReactNative', 'ReactNative', 'ReactNavigation', 'npm']
+tags: [ 'ReactNative', 'ReactNavigation', 'npm']
 path: "/20190514"
 ---
 
