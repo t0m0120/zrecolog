@@ -19,7 +19,7 @@ TextAreaにFocusした際にKeyboardの高さがキーボード1個分？余計�
 [Bug in KeyboardAvoidingView on Android #11681](https://github.com/facebook/react-native/issues/11681#issuecomment-297031159)
 にある`project/android/app/src/main/AndroidManifest.xml`のwindowSSoftInputModeを`adjustPan`へ
 
-```ｘｍｌ
+```xml
     android:windowSoftInputMode="adjustPan"
 ```
 
