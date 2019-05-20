@@ -38,7 +38,7 @@ $yarn hygen actiona_name
 なんかでactions/name.js | reducer/name.jsを作るようにするしたりとかすると恩恵でかいと思う。
 
 
-```
+```jsx
 ---
 to: js/components/<%= name %>/index.ios.tsx
 sh: cp js/components/<%= name %>/index.ios.tsx js/components/<%= name %>/index.android.tsx
