@@ -12,4 +12,3 @@ Sentryを入れたままAndroidでremote_debugすると落ちる
 [Couldn't find key stacktrace in dynamic #438](https://github.com/getsentry/react-native-sentry/issues/438#issuecomment-414977799)
 
 AndroidがDebugBuildのときにsentryを起動しない様に変更して対応
-
