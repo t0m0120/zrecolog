@@ -12,6 +12,8 @@ Android対応の際にReactNavigationの[createDrawerNavigator](https://reactnav
 [createDrawerNavigator](https://reactnavigation.org/docs/en/drawer-navigator.html)のプロパティにあるedgeWidthを調整すれば行けるかと思ったが
 Androidで全く変化なかったのでissue等を検索した所
 
-[drawer/issues/49#issuecomment](https://github.com/react-navigation/drawer/issues/49#issuecomment-477935582)
+drawerのissueに  [drawer/issues/49#issuecomment](https://github.com/react-navigation/drawer/issues/49#issuecomment-477935582)
 
-で[react-native-gesture-handler](https://github.com/kmagiera/react-native-gesture-handler)のバグでedgeWidthに渡した値が逆に扱われてしまっていたようなのでreact-native-gesture-handlerをverupするかマイナス指定で解決。
+[react-native-gesture-handler](https://github.com/kmagiera/react-native-gesture-handler)のバグでedgeWidthに渡した値が逆に扱われてしまっていたようなのでreact-native-gesture-handlerをverupするかマイナス指定で解決した。
+
+Android対応でAnimationやらStyleでこの手のissue見て解決が多い。..
