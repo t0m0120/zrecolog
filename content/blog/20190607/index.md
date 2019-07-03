@@ -1,9 +1,13 @@
 ---
-title: 最近適当に取った課金動線
+title: 最近適当にスクショした課金動線
 date: 2019-07-03
 tags: ["App", "Design", "課金施策"]
 path: /20190703
 ---
+
+## 参考になりそうな課金動線
+
+
 | YoutubeMusic |  |
 | --- | --- |
 | ![Screenshot_20190623-213804](https://user-images.githubusercontent.com/34805701/60495768-66a7d200-9cec-11e9-8738-7a94b3e12512.png) | ![Screenshot_20190623-213712](https://user-images.githubusercontent.com/34805701/60495767-66a7d200-9cec-11e9-8a9f-faa073e69175.png) |
