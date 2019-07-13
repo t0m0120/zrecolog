@@ -27,12 +27,12 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
-        <a
+        <Link
           style={{ fontSize: 12, textDecoration: 'none' }}
-          href={`https://twitter.com/t0m0120`}
-        >
+            to={`/about`}
+          >
           @t0m0120
-        </a>
+        </Link>
       </header>
     )
     return (

@@ -20,7 +20,7 @@ class BlogIndex extends React.Component {
           const title = node.frontmatter.title || node.fields.slug
           return (
             <div key={node.fields.slug}>
-              <h3
+              <h1
                 style={{
                   marginBottom: 0
                 }}
@@ -35,7 +35,7 @@ class BlogIndex extends React.Component {
                 >
                   {title}
                 </Link>
-              </h3>
+              </h1>
               <small>{node.frontmatter.date}</small>
             </div>
           )
