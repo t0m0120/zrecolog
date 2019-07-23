@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: white;
+  background: #171717;
   padding: 15px;
 }
 
@@ -339,10 +339,11 @@ tt {
   margin: 0 2px;
   padding: 0 5px;
   white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
+  background-color: #
+  ;
   border-radius: 3px;
 }
+
 
 pre code {
   margin: 0;
@@ -382,7 +383,7 @@ a {
   font-family: Quicksand, 游ゴシック体, 'Yu Gothic', YuGothic,
     'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', メイリオ, Meiryo,
     Osaka, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
-  color: #808080;
+  color: #b7b7b7;
 }
 
 body {
