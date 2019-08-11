@@ -13,7 +13,7 @@ SlackはSblack微妙すぎて公式ダークモード待ちになってしまっ
 [StylishThemes/Github-Dark](https://github.com/StylishThemes/GitHub-Dark)の説明文のURLを開くと勝手にダークモードになる。
 [dark-google-calenadr-2019](https://userstyles.org/styles/143026/dark-google-calendar-2019)
 
-![https://github.com/StylishThemes/GitHub-Dark/raw/master/images/screenshots/after_blue.png](DarkModeSample)
+![DarkmodeSample](https://github.com/StylishThemes/GitHub-Dark/raw/master/images/screenshots/after_blue.png)
 
 
 owari
