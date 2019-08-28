@@ -15,8 +15,8 @@ jobs:
       
       - restore_cache:
           keys:
-            - v2-npm-deps-{{ checksum "package-lock.json" }}
-            - v2-npm-deps-
+            - v3-npm-deps-{{ checksum "package-lock.json" }}
+            - v3-npm-deps-
       
       - run:
           name: Install Dependencies
