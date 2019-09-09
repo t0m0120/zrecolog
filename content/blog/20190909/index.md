@@ -53,14 +53,15 @@ Hermesはまだ出たばかりかつrealmなど対応していないライブラ
 
 
 
-0.59.10の場合はpatch2以下だと日本語がデバッグモードで文字化けしてしまうためpatch.2でyarn addする。
+0.59.10の場合はpatch2以下だと日本語がデバッグモードで文字化けしてしまうためpatch.2でyarn addする。<br>
+すぐに対応してもらって助かった。。。
 [Run code directly from dev server cause Non-Ascii characters garbled #13](https://github.com/Kudo/react-native-v8/issues/13)
 
 ```sh
 yarn add 'react-native-v8@>=0.59.10-patch.2 <0.59.11'
 
 ```
-
+<br>
 
 ```diff
 --- a/android/app/build.gradle
@@ -111,3 +112,11 @@ Xcodeかadb logcatで確認する。
 ```js
 console.log(`V8 version is ${global._v8runtime().version}`);
 ```
+
+
+プロダクションの方をreact-native-v8に載せ替えてリリースし１週間弱動かしてみているが<br>
+`signal 11 (SIGSEGV), code 1 (SEGV_MAPERR)`のクラッシュは起きなくなったっぽい
+
+
+この辺もあってAndroidのUITsetなど工数かけて行った感がある。<br>
+issueは追いかけておくがとりあえずは解決・・・？
