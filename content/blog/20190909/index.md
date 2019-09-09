@@ -12,7 +12,7 @@ path: /20190909
 [App Crash on Android OS 6 Samsung Galaxy S7 SM-G930FD (JSC Crash) 64 bit support A/libc: Fatal signal 11 (SIGSEGV) #24261](https://github.com/facebook/react-native/issues/24261)
 
 
-```
+```sh
 signal 11 (SIGSEGV), code 1 (SEGV_MAPERR)
 *** *** *** *** *** *** *** *** *** *** *** *** *** *** *** ***
 pid: 0, tid: 0 >>> com.myapp <<<
