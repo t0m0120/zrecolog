@@ -54,16 +54,15 @@ SONYSTOREでBeckxDAOKOのアルバムのハイレゾをWF-1000XM3で試聴して
 CoDMW出るまでに新しいのがほしい。
 
 通勤・作業用に
-格安AmazonBluetoothイヤホンのこいつ
+格安AmazonBluetoothイヤホンのこいつ。今ではランニング用に格下げ<br>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=recolog-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07MX7V8XM&linkId=6050a3ead7201059fc55fdaa0a26b599"></iframe>
-今ではランニング用に格下げ
 
 と
-安い中では低音強めの
+安い中では低音強めの<br>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=recolog-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B01N10JQZ7&linkId=d1ddcba959c714e787abf883db4d11c4"></iframe>
 
 
-中華イヤホン試してみたくて買ったがレビューの割にかなり残念で悲しい思いをして埃かぶってる。
+中華イヤホン試してみたくて買ったがレビューの割にかなり残念で悲しい思いをして埃かぶってる。<br>
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-fe.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=recolog-22&language=ja_JP&o=9&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B07BT2YB63&linkId=bb1c90ea200c459633e434e92cd760e0"></iframe>
 
 
