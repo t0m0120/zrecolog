@@ -23,4 +23,4 @@ Figma~全く~使いこなしていないが基本無料でプログラマーが�
 
 ~複雑な事が出来ないので~シンプルなやつをとりあえず。
 
-![figma_app_image](./figma_app_image.png)
+![figma_app_image](./figmaapp.png)
