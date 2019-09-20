@@ -23,6 +23,7 @@ path: /20190920
 
 ## メモ
 | ![IMG_0858.png](./IMG_0858.png) | ![IMG_0859.png](./IMG_0859.png) |
+| --- | --- |
 | ![IMG_0860.png](./IMG_0860.png) | ![IMG_0861.png](./IMG_0861.png) |
 | ![IMG_0863.png](./IMG_0863.png) |
 | ![IMG_0862.png](./IMG_0864.png) | ![IMG_0863.png](./IMG_0865.png) |
@@ -51,15 +52,19 @@ path: /20190920
 | ![IMG_0862.png](./IMG_0874.png) | ![IMG_0863.png](./IMG_0875.png) |
 | --- | ---|
 | ![IMG_0862.png](./IMG_0876.png) | ![IMG_0863.png](./IMG_0877.png) |
+| ![IMG_0862.png](./IMG_0878.png) |
 
 ## ヘルスケア
+
 |  |  |
 | --- | ---|
-| ![IMG_0862.png](./IMG_0878.png) | ![IMG_0863.png](./IMG_0879.png) |
+| ![IMG_0863.png](./IMG_0879.png) | ![IMG_0860.png](./IMG_0880.png) |
+
 
 ## ホーム
-| ![IMG_0860.png](./IMG_0880.png) | ![IMG_0861.png](./IMG_0881.png) |
-| ![IMG_0862.png](./IMG_0882.png) |
+|  |  |
+| --- | ---|
+｜![IMG_0861.png](./IMG_0881.png) | ![IMG_0862.png](./IMG_0882.png) |
 
 ##　Wallet
 ![IMG_0862.png](./IMG_0884.png)
