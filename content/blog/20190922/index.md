@@ -135,7 +135,6 @@ path: /20190920
 | ![IMG_0862.png](./IMG_0878.png) |
 
 ## ヘルスケア
-
 |  |  |
 | --- | ---|
 | ![IMG_0863.png](./IMG_0879.png) | ![IMG_0860.png](./IMG_0880.png) |
@@ -147,7 +146,9 @@ path: /20190920
 ｜![IMG_0861.png](./IMG_0881.png) | ![IMG_0862.png](./IMG_0882.png) |
 
 ##　Wallet
-![IMG_0862.png](./IMG_0884.png)
+|  |  |
+| --- | --- |
+| ![IMG_0862.png](./IMG_0884.png) |  |
 
 ## 写真
 | ![IMG_0863.png](./IMG_0885.png) | ![IMG_0862.png](./IMG_0886.png) |
