@@ -9,6 +9,75 @@ path: /20190920
 
 とりあえず手持ちの開発用iPhone7をiOS13に変えてみた。
 
+
+
+
+## iOS標準アプリでの全体的なスタイルとしては
+
+[AppleDeveloper HumanInteface Guidelines / DarkMode](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/dark-mode/)
+
+背景黒<br>
+タイトル系の見出し文字白は共通<br>
+文章はグレー
+
+[AppleDeveloper HumanInterface Guidelines / VisualDesign/Color](https://developer.apple.com/design/human-interface-guidelines/ios/visual-design/color/)
+
+決定やボタンの色はHumanInterface Guidelines / VisualDesign/Colorそのまま使ってるっぽい？
+
+
+### Blue
+
+<p style='color:rgb(24,156,255)'>rgb(24,156,255)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(24,156,255);color:white'>rgb(24,156,255)</span>
+
+### Green
+
+<p style='color:rgb(48,219,91)'>rgb(48,219,91)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(48,219,91);color:white'>rgb(48,219,91)</span>
+
+### Indigo
+
+<p style='color:rgb(125,122,255)'>rgb(125,122,255)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(125,122,255);color:white'>rgb(125,122,255)</span>
+
+### Orange
+
+<p style='color:rgb(255,179,64)'>rgb(255,179,64)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(255,179,64);color:white'>rgb(255,179,64)</span>
+
+## Pink
+
+<p style='color:rgb(255,100,130)'>rgb(255,100,130)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(255,100,130);color:white'>rgb(255,100,130)</span>
+
+## Purple
+
+<p style='color:rgb(208,143,255)'>rgb(208,143,255)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(208,143,255);color:white'>rgb(208,143,255)</span>
+
+## Red
+
+<p style='color:rgb(255,105,97)'>rgb(255,105,97)</span>
+
+<span style='border-radius:20px;padding:20;background:rgb(255,105,97);color:white'>rgb(255,105,97)</span>
+
+## Teal
+<p style='color:rgb(112,215,255)'>rgb(112,215,255)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(112,215,255);color:white'>rgb(112,215,255)</span>
+
+<p style='color:rgb(255,212,38)'>rgb(255,212,38)</span>　
+
+<span style='border-radius:20px;padding:20;background:rgb(255,212,38);color:white'>rgb(255,212,38)</span>
+
+
+
 ## カレンダー
 | ![IMG_0848.png](./IMG_0848.png) | ![IMG_0849.png](./IMG_0849.png) |
 | --- | --- |
