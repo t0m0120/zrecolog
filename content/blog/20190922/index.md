@@ -143,7 +143,7 @@ path: /20190922
 ## ホーム
 |  |  |
 | --- | ---|
-｜![IMG_0861.png](./IMG_0881.png) | ![IMG_0862.png](./IMG_0882.png) |
+| ![IMG_0861.png](./IMG_0881.png) | ![IMG_0862.png](./IMG_0882.png) |
 
 ##　Wallet
 |  |  |
