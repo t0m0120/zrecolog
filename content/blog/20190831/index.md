@@ -5,6 +5,12 @@ tags: ["iOS13", "AppStore", "iOS"]
 path: /20190831
 ---
 
+!この記事は古い記事です。<br>
+実際にiOS13でダークモード調査したところ特にinfo.plist触って無くてもDarkMode対応していなければUI周りや公式のアラートなどはLightModeのままでした。<br>
+
+詳細は以下記事参考
+[iOS標準アプリのダークモードを適当にスクリーンショットした](recolog.tokyo/20190922)
+
 前回の記事でinfo.plistを
 
 ```
