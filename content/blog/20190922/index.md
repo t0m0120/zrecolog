@@ -10,7 +10,7 @@ path: /20190922
 とりあえず手持ちの開発用iPhone7をiOS13に変えてみた。<br>
 ダークモードに対応しているアプリがSlackぐらいしか今のところないっぽい。<br>
 
-またinfo.plistのUISuseｒInterfaceStyleをLightにすることでLight上書きする処理を、AppStoreに投げると怒られてアップ出来ない問題を8月末のチェック時に以下記事に書いたが<br>
+またinfo.plistのUIuserInterfaceStyleをLightにすることでLight上書きする処理を、AppStoreに投げると怒られてアップ出来ない問題を8月末のチェック時に以下記事に書いたが<br>
 
 [UIUserInterfaceStyleをLightにするとAppStoreにアップロードできない](recolog.tokyo/20190831)<br>
 
