@@ -1,0 +1,12 @@
+---
+title: Netlify CMS導入してみた
+date: '2019-09-30'
+path: /20190930
+tags:
+  - Netlify CMS Blog
+---
+個人ブログの書き込みをGitpod使っていたが立ち上がり遅かったり、スペース2個が何故か整形されて消えるなど面倒だったのでNetlifyCMSを導入してNetlifyでBuildされたほうにはnoindexを貼る感じでCMSでだけ使う感じにした。
+
+<https://recolog.netlify.com/>
+
+![Netlify CMS Editor 画像](/img/スクリーンショット-2019-09-30-1.20.10.png)
