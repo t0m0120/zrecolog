@@ -61,7 +61,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               )
               .concat(meta)
               .push(
-                process.env.isNetlify
+                process.env.IS_NETLIFY
                 ? {
                   name: 'robot',
                   content: 'noindex,nofollow,noarchive'
