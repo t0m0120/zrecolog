@@ -6,14 +6,19 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: "blog"
-    label: "Blog"
-    folder: "content/blog"
+  - name: 'blog'
+    label: 'Blog'
+    folder: 'content/blog'
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
     fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "string" default'2019-00-00' }
-      - { label: "Path", name: "path", widget: "string", default: "./20190000" }
-      - { label: "Tags", name: "tags", widget: "list", default: ["hoge"] }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - {
+          label: 'Publish Date',
+          name: 'date',
+          widget: 'string',
+          default: '2019-00-00',
+        }
+      - { label: 'Path', name: 'path', widget: 'string', default: '/20190000' }
+      - { label: 'Tags', name: 'tags', widget: 'list', default: ['hoge'] }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
