@@ -78,6 +78,7 @@ module.exports = {
         noInlineHighlight: false,
       },
     },
-    'gatsby-plugin-sitemap'
+    'gatsby-plugin-sitemap',
+    `gatsby-plugin-netlify-cms`
   ],
 }
