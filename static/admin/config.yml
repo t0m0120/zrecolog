@@ -13,7 +13,7 @@ collections:
     slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Publish Date", name: "date", widget: "string" default'2019-00-00' }
       - { label: "Path", name: "path", widget: "string", default: "./20190000" }
       - { label: "Tags", name: "tags", widget: "list", default: ["hoge"] }
       - { label: "Body", name: "body", widget: "markdown" }
