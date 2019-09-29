@@ -59,7 +59,15 @@ function SEO({ description, lang, meta, keywords, title }) {
                     }
                   : []
               )
-              .concat(meta)}
+              .concat(meta)
+              .push(
+                process.env.isNetlify
+                ? {
+                  name: 'robot',
+                  content: 'noindex,nofollow,noarchive'
+                } : []
+              )
+            }
           />
         )
       }}
