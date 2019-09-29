@@ -59,7 +59,6 @@ function SEO({ description, lang, meta, keywords, title }) {
                     }
                   : []
               )
-              .concat(meta)
               .push(
                 process.env.IS_NETLIFY
                 ? {
@@ -67,6 +66,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                   content: 'noindex,nofollow,noarchive'
                 } : []
               )
+              .concat(meta)
             }
           />
         )
