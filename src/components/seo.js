@@ -51,6 +51,14 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
             ]
+              .push(
+                process.env.IS_NETLIFY
+                  ? {
+                      name: 'robot',
+                      content: 'noindex,nofollow,noarchive',
+                    }
+                  : []
+              )
               .concat(
                 keywords.length > 0
                   ? {
@@ -59,15 +67,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                     }
                   : []
               )
-              .push(
-                process.env.IS_NETLIFY
-                ? {
-                  name: 'robot',
-                  content: 'noindex,nofollow,noarchive'
-                } : []
-              )
-              .concat(meta)
-            }
+              .concat(meta)}
           />
         )
       }}
