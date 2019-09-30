@@ -51,7 +51,7 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaDescription,
               },
             ]
-              .push(
+              .concat(
                 process.env.IS_NETLIFY
                   ? {
                       name: 'robot',
