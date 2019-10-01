@@ -4,6 +4,7 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, keywords, title, thumbnail }) {
+  console.log('thumbnail: ', thumbnail);
   return (
     <StaticQuery
       query={detailsQuery}
@@ -72,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title, thumbnail }) {
                   ? [
                       {
                         name: 'og:image',
-                        content: thumbnail,
+                        content: thumbnail.childImageSharp.fluid.src,
                       },
                       {
                         name: 'twitter:card',

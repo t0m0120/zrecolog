@@ -22,6 +22,11 @@ module.exports = {
         path: `${__dirname}/content/assets`,
         name: `assets`,
       },
+    },{
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/static`,
+      },
     },
     {
       resolve: `gatsby-transformer-remark`,
@@ -46,6 +51,7 @@ module.exports = {
       },
     },
     `gatsby-transformer-sharp`,
+    `gatsby-transformer-remark`,
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-google-analytics`,
