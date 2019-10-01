@@ -21,4 +21,5 @@ collections:
         }
       - { label: 'Path', name: 'path', widget: 'string', default: '/20190000' }
       - { label: 'Tags', name: 'tags', widget: 'list', default: ['hoge'] }
+      - { label: 'サムネイル', name: 'thumbnail', widget: 'image' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
