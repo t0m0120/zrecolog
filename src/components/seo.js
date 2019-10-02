@@ -73,7 +73,7 @@ function SEO({ description, lang, meta, keywords, title, thumbnail }) {
                   ? [
                       {
                         name: 'twitter:image',
-                        content: thumbnail.childImageSharp.fluid.src,
+                        content: data.site.siteMetadata.siteUrl + thumbnail.childImageSharp.fluid.src,
                       },
                       {
                         name: 'twitter:card',
