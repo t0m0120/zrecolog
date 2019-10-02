@@ -72,7 +72,7 @@ function SEO({ description, lang, meta, keywords, title, thumbnail }) {
                 thumbnail
                   ? [
                       {
-                        name: 'og:image',
+                        name: 'twitter:image',
                         content: thumbnail.childImageSharp.fluid.src,
                       },
                       {
