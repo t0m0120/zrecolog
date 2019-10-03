@@ -7,7 +7,7 @@ class About extends React.Component {
   render() {
     const { data } = this.props
     const siteTitle = data.site.siteMetadata.title
-    const profiles = ['t0m0120','24year','tokyo','Engineer']
+    const profiles = ['t0m0120','25year','tokyo','Engineer']
     const skills = ['React','ReactNative','Vue','PHP', 'Firebase', 'CI/Automation', 'AppMarketing']
     const jobs = ['AutoScale,Inc. Now!', 'Asoview 5months', 'Wapon 1.2year', 'Manufacturing control 3year']
     const links = [
@@ -18,6 +18,8 @@ class About extends React.Component {
       {name:'Speekerdeck', url:'https://speakerdeck.com/t0m0120'}
     ]
     const lts = [
+      {name:'ReactNativeアプリをBitrise上でUITestしてみた話', url: 'https://speakerdeck.com/t0m0120/reactnativeapuriwobitriseshang-deuitestsitemitahua'},
+      {name: 'ReactNativeTokyo#6 パネルディスカッション', url: 'https://r-n.connpass.com/event/141558/'},
       {name:'React製WebサービスをReactNativeでアプリ化した話', url: 'https://speakerdeck.com/t0m0120/reactzhi-websabisuworeactnativedeapurihua-sitahua'},
       {name:'つらみを抑えるReactNative', url: 'https://www.slideshare.net/t0m0120/reactnative-106277459'}
     ]
