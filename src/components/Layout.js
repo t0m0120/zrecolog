@@ -46,7 +46,7 @@ class Layout extends React.Component {
         <div style={{ marginTop: '1.75rem', marginBottom: '1.75rem' }}>
           {children}
         </div>
-        <footer style={{ textAlign: 'center', fontSize: '12px' }}>
+        <footer style={{ textAlign: 'center', fontSize: '12px', marginBottom: '20px' }}>
           © {new Date().getFullYear()},{` `}
           <a href="https://www.twitter.com/t0m0120">t0m0120</a>
         </footer>

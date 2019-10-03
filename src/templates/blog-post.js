@@ -13,7 +13,11 @@ class BlogPostTemplate extends React.Component {
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
-        <SEO title={post.frontmatter.title} description={post.excerpt} thumbnail={post.frontmatter.thumbnail} />
+        <SEO
+          title={post.frontmatter.title}
+          description={post.excerpt}
+          thumbnail={post.frontmatter.thumbnail}
+        />
         <h1>{post.frontmatter.title}</h1>
         <p
           style={{
@@ -22,12 +26,12 @@ class BlogPostTemplate extends React.Component {
         >
           {post.frontmatter.date}
         </p>
-        <div style={{display: 'flex', marginTop: '10px'}}>
+        <div style={{ display: 'flex', marginTop: '10px' }}>
           {post.frontmatter.tags.map(tag => {
             return (
               <Link
                 to={`/tags/${_.toLower(tag)}`}
-                className='post-tag'
+                className="post-tag"
                 key={tag}
               >
                 {tag}
@@ -35,9 +39,23 @@ class BlogPostTemplate extends React.Component {
             )
           })}
         </div>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} className='post-text' />
+        <div
+          dangerouslySetInnerHTML={{ __html: post.html }}
+          className="post-text"
+        />
         <hr style={{}} />
 
+        <p style={{ width: '100%', paddingBottom: '20px', textAlign: 'center' }}>
+          もし記事がお役に立ちましたら
+          <br />
+          眠気覚ましのコーヒー代支援して頂けると幸いです
+        </p>
+        <div style={{display: 'flex', justifyContent: 'center'}}>
+        <a href="https://kyash.me/payments/fMoT9LtD7x8X3nuRgkMmmGP1oGVL"
+        style={{textAlign: 'center', width:"20%"}}>
+          <img src="/img/qrcode.png" style={{ width: '100%' }} />
+        </a>
+        </div>
         <ul
           style={{
             display: `flex`,
