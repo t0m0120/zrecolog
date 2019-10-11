@@ -45,12 +45,19 @@ class BlogPostTemplate extends React.Component {
         />
         <hr style={{}} />
 
-        <p style={{ width: '100%', paddingBottom: '20px', textAlign: 'center' }}>
-          記事を見て<a href="https://kyash.me/payments/fMoT9LtD7x8X3nuRgkMmmGP1oGVL">Kyash</a>から眠気覚ましのコーヒー代投げ銭してもらえると喜びます！
+        <p
+          style={{ width: '100%', paddingBottom: '20px', textAlign: 'center' }}
+        >
+          記事を見て
+          <a
+            style={{ textDecoration: 'underline' }}
+            href="https://kyash.me/payments/fMoT9LtD7x8X3nuRgkMmmGP1oGVL"
+          >
+            Kyash
+          </a>
+          から眠気覚ましのコーヒー代投げ銭してもらえると喜びます！
         </p>
-        <div style={{display: 'flex', justifyContent: 'center'}}>
-        
-        </div>
+        <div style={{ display: 'flex', justifyContent: 'center' }}></div>
         <ul
           style={{
             display: `flex`,
