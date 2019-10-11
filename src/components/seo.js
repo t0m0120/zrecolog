@@ -4,7 +4,6 @@ import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
 function SEO({ description, lang, meta, keywords, title, thumbnail }) {
-  console.log('thumbnail: ', thumbnail);
   return (
     <StaticQuery
       query={detailsQuery}

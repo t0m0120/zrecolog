@@ -50,7 +50,7 @@ class Layout extends React.Component {
           © {new Date().getFullYear()},{` `}
           <a href="https://www.twitter.com/t0m0120">t0m0120</a>
         </footer>
-        <Ad/>
+        {/* <Ad/> */}
       </div>
     )
   }

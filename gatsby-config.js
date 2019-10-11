@@ -85,6 +85,12 @@ module.exports = {
       },
     },
     'gatsby-plugin-sitemap',
-    `gatsby-plugin-netlify-cms`
+    `gatsby-plugin-netlify-cms`,
+    {
+      resolve: `gatsby-plugin-google-adsense`,
+      options: {
+        publisherId: `ca-pub-5441589109590198`
+      },
+    },
   ],
 }
