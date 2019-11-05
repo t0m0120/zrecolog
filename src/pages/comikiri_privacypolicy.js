@@ -129,7 +129,7 @@ class PrivacyPolicy extends React.Component {
   }
 }
 
-export default About
+export default PrivacyPolicy
 
 export const pageQuery = graphql`
   query {
