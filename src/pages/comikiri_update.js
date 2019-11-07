@@ -21,7 +21,7 @@ class UpdateInfo extends React.Component {
   }
 }
 
-export default PrivacyPolicy
+export default UpdateInfo
 
 export const pageQuery = graphql`
   query {
