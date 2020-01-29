@@ -8,7 +8,7 @@ path: /20190831
 # !この記事は古い記事です。<br>
 
 詳細は以下記事参考
-[ReactNativeでiOS13のDarkModeを無効化する。](https://recolog.tokyo/20191104)
+[ReactNativeでiOS13のDarkModeを無効化する。](https://recolog.winterer.app/20191104)
 
 前回の記事でinfo.plistを
 

@@ -3,7 +3,7 @@ module.exports = {
     title: `recolog`,
     author: `t0m0120`,
     description: `t0m0120の個人開発ブログ`,
-    siteUrl: `https://recolog.tokyo/`,
+    siteUrl: `https://recolog.winterer.app/`,
     social: {
       twitter: `t0m0120`,
     },
