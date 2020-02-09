@@ -12,7 +12,7 @@ path: /20190922
 
 またinfo.plistのUIuserInterfaceStyleをLightにすることでLight上書きする処理を、AppStoreに投げると怒られてアップ出来ない問題を8月末のチェック時に以下記事に書いたが<br>
 
-[UIUserInterfaceStyleをLightにするとAppStoreにアップロードできない](recolog.tokyo/20190831)<br>
+[UIUserInterfaceStyleをLightにするとAppStoreにアップロードできない](recolog.winterer.app/20190831)<br>
 
 特にinfo.plistに何もしなくてもdarkMode対応してないアプリはそのままLightで表示される模様。
 急いでDarkにせずに各社の対応とレビューでダークモードが必須になるぐらいでプロダクトのダークモード対応は良さそうかと。
