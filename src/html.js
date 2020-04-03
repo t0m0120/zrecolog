@@ -23,6 +23,15 @@ export default class HTML extends React.Component {
           />
           {this.props.postBodyComponents}
           <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+          <script type="text/javascript">
+            amzn_assoc_ad_type = "link_enhancement_widget";
+            amzn_assoc_tracking_id = "recolog-22";
+            amzn_assoc_linkid = "8b47e033c8a587a3d6e1d1fc974951f2";
+            amzn_assoc_placement = "";
+            amzn_assoc_marketplace = "amazon";
+            amzn_assoc_region = "JP";
+          </script>
+          <script src="//ws-fe.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1&MarketPlace=JP"></script>
         </body>
       </html>
     )
