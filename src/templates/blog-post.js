@@ -44,7 +44,7 @@ class BlogPostTemplate extends React.Component {
           className="post-text"
         />
         <hr style={{}} />
-
+{/* 
         <p
           style={{ width: '100%', paddingBottom: '20px', textAlign: 'center' }}
         >
@@ -56,7 +56,7 @@ class BlogPostTemplate extends React.Component {
             Kyash
           </a>
           から眠気覚ましのコーヒー代投げ銭してもらえると喜びます！
-        </p>
+        </p> */}
         <div style={{ display: 'flex', justifyContent: 'center' }}></div>
         <ul
           style={{
