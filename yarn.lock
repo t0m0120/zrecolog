@@ -641,17 +641,11 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.12.5", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5":
+  version "7.12.5"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.12.5.tgz#410e7e487441e1b360c29be715d870d9b985882e"
   dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.2.0":
-  version "7.6.2"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
-  dependencies:
-    regenerator-runtime "^0.13.2"
+    regenerator-runtime "^0.13.4"
 
 "@babel/template@^7.1.0", "@babel/template@^7.4.4":
   version "7.4.4"
@@ -5431,17 +5425,17 @@ gatsby-react-router-scroll@^2.1.6:
     scroll-behavior "^0.9.10"
     warning "^3.0.0"
 
-gatsby-remark-copy-linked-files@^2.1.13:
-  version "2.1.13"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.1.13.tgz#29c8d9500ba78a9d457f102540396c39abbd783e"
+gatsby-remark-copy-linked-files@^2.7.0:
+  version "2.7.0"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-copy-linked-files/-/gatsby-remark-copy-linked-files-2.7.0.tgz#8a7c336881f8a498cf58d295b181341067594e53"
   dependencies:
-    "@babel/runtime" "^7.5.5"
+    "@babel/runtime" "^7.12.5"
     cheerio "^1.0.0-rc.3"
     fs-extra "^8.1.0"
     is-relative-url "^3.0.0"
-    lodash "^4.17.15"
+    lodash "^4.17.20"
     path-is-inside "^1.0.2"
-    probe-image-size "^4.1.1"
+    probe-image-size "^5.0.0"
     unist-util-visit "^1.4.1"
 
 gatsby-remark-images@^3.1.19:
@@ -7940,9 +7934,9 @@ lodash.values@^2.4.1:
   dependencies:
     lodash.keys "~2.4.1"
 
-lodash@^4.1.1, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
+lodash@^4.1.1, lodash@^4.11.1, lodash@^4.15.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@^4.17.20, lodash@^4.17.3, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
+  version "4.17.20"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.20.tgz#b44a9b6297bcb698f1c51a3545a2b3b368d59c52"
 
 log-symbols@^2.2.0:
   version "2.2.0"
@@ -10164,6 +10158,16 @@ probe-image-size@^4.1.1:
     request "^2.83.0"
     stream-parser "~0.3.1"
 
+probe-image-size@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/probe-image-size/-/probe-image-size-5.0.0.tgz#1b87d20340ab8fcdb4324ec77fbc8a5f53419878"
+  dependencies:
+    deepmerge "^4.0.0"
+    inherits "^2.0.3"
+    next-tick "^1.0.0"
+    request "^2.83.0"
+    stream-parser "~0.3.1"
+
 process-nextick-args@~1.0.6:
   version "1.0.7"
   resolved "https://registry.yarnpkg.com/process-nextick-args/-/process-nextick-args-1.0.7.tgz#150e20b756590ad3f91093f25a4f2ad8bff30ba3"
@@ -10919,6 +10923,10 @@ regenerator-runtime@^0.11.0:
 regenerator-runtime@^0.13.2:
   version "0.13.3"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.3.tgz#7cf6a77d8f5c6f60eb73c5fc1955b2ceb01e6bf5"
+
+regenerator-runtime@^0.13.4:
+  version "0.13.7"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.7.tgz#cac2dacc8a1ea675feaabaeb8ae833898ae46f55"
 
 regenerator-transform@^0.14.0:
   version "0.14.1"
