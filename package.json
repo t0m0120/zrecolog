@@ -6,7 +6,7 @@
   "author": "t0m0120",
   "dependencies": {
     "firebase-tools": "^7.3.0",
-    "gatsby": "^2.14.1",
+    "gatsby": "^5.5.0",
     "gatsby-image": "^2.2.14",
     "gatsby-plugin-feed": "^2.3.9",
     "gatsby-plugin-google-adsense": "^1.1.3",
@@ -15,7 +15,7 @@
     "gatsby-plugin-netlify-cms": "^4.1.21",
     "gatsby-plugin-offline": "^2.2.10",
     "gatsby-plugin-react-helmet": "^3.1.5",
-    "gatsby-plugin-sharp": "^2.2.18",
+    "gatsby-plugin-sharp": "^2.14.4",
     "gatsby-plugin-sitemap": "^2.2.9",
     "gatsby-remark-copy-linked-files": "^2.1.13",
     "gatsby-remark-images": "^3.1.19",
